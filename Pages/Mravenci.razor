@@ -1,10 +1,11 @@
 @namespace Mravenci.Pages
 
+
 <div class="game-container">
     <div class="game-area">
 
         <div class="board">
-            <div class="player-column player1">
+            <div class="@($"player-column{(aktualniHrac == cerni ? " active-player" : "")}")">
                 <h2>@cerni.Jmeno</h2>
 
                 <div class="scoreboard">
@@ -15,10 +16,10 @@
             </div>
 
             <div class="castle-column">
-
+                    <h1 class="win">@vytezstvi</h1>
             </div>
 
-            <div class="player-column player2">
+            <div class="@($"player-column{(aktualniHrac == cerveni ? " active-player" : "")}")">
                 <h2>@cerveni.Jmeno</h2>
                 <div class="scoreboard">
                     <div class="score-item">Hrad: <strong>@cerveni.Hrad</strong></div>
@@ -27,38 +28,25 @@
                 </div>
             </div>
 
-
         </div>
-
+        @* ruka hráče *@
         <div class="hand">
-            <!-- Karty zůstávají dole -->
-            <div class="card">
-                <div class="card-title">🏰 Pevnost</div>
-                <div class="card-cost">💰 15 cihel</div>
-                <div class="card-effect">+20 hrad</div>
-                <div class="card-actions">
-                    <button class="btn play">Hrát</button>
-                    <button class="btn discard">Odhodit</button>
+            @for (int i = 0; i < aktualniRuka.Count; i++)
+            {
+                var index = i; // Zajistí správné uzavření hodnoty
+                var karta = aktualniRuka[index];
+                <div class="@($"card{(karta.JeKartaHratelna(aktualniHrac) ? "" : " card-disabled")}")"
+                    @onclick="() => { if (karta.JeKartaHratelna(aktualniHrac)) HracZahralKartu(index); }">
+                    <div class="discard">
+                        <div class="discard-button" @onclick="@((MouseEventArgs e) => ZahodKartu(index))"
+                            @onclick:stopPropagation="true">X
+                        </div>
+                    </div>
+                    <div class="card-title">@karta.Nazev</div>
+                    <div class="card-cost">💰@karta.Cena</div>
+                    <div class="card-effect">@karta.Popis</div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-title">🐉 Drak</div>
-                <div class="card-cost">💰 15 zbraní</div>
-                <div class="card-effect">Útok 20</div>
-                <div class="card-actions">
-                    <button class="btn play">Hrát</button>
-                    <button class="btn discard">Odhodit</button>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-title">👷 Stavitel</div>
-                <div class="card-cost">💰 3 cihly</div>
-                <div class="card-effect">+8 cihel</div>
-                <div class="card-actions">
-                    <button class="btn play">Hrát</button>
-                    <button class="btn discard">Odhodit</button>
-                </div>
-            </div>
+            }
         </div>
     </div>
 </div>

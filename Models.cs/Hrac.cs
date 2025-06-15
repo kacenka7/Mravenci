@@ -12,6 +12,12 @@ public class Hrac
         PocetCihel = cihly;
         PocetZbrani = zbrane;
     }
+
+    public void PridejSuroviny()
+    {
+        PocetCihel += 2;
+        PocetZbrani += 2;
+    }
 }
 
 

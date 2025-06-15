@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZGD3TRsL6cYzdd4AMPs6qrEkux0eJ2jX6xsbkjUAqWU=",
+  "Hash": "dvwNjRsbLr5TvtZpUmWy73Uj8f4QxwbDpVPXH64/KE0=",
   "Source": "Mravenci",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "5lobjqudyl",
-      "Integrity": "x/MYUAmdAnD9I1FFFnnrA3bKNpHJh8bAKE+a0XVXM4o=",
+      "Fingerprint": "g2ls0b255e",
+      "Integrity": "WDqUmUcRJpfR+xR1qZN5CfhEyPmby5rWPJoBfZ5AJH8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -829,8 +829,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "leda7r6mmy",
-      "Integrity": "owqUco/eLEWWsgWz5rJHG7syHIFaKvV6Vxv4cVE8cGs=",
+      "Fingerprint": "duapl4nnuu",
+      "Integrity": "JfgORMaxk/x7+SsMqU7RMwk/t+RhBUzOZn6y4X3b+ZE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\Mravenci.pdb"
@@ -850,8 +850,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "pmm5243x4b",
-      "Integrity": "L7zqgCIqum3Nh1wo7y8cYTRbwNZj3lorFNSpCT6+B7A=",
+      "Fingerprint": "ndqbjx9qmv",
+      "Integrity": "S4Fq2Re5AocSGwgke2JQyomu6HB+PcqVGWcVskzyDYw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\webcil\\Mravenci.wasm"
@@ -5540,12 +5540,12 @@
       "OriginalItemSpec": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\7bqs9l7xgf-wccbej3e5n.gz",
+      "Identity": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\7bqs9l7xgf-79f1ftsn3y.gz",
       "SourceId": "Mravenci",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "css/app#[.{fingerprint=wccbej3e5n}]?.css.gz",
+      "RelativePath": "css/app#[.{fingerprint=79f1ftsn3y}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5554,8 +5554,8 @@
       "RelatedAsset": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\wwwroot\\css\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "47nf6xd7os",
-      "Integrity": "0GJsNeEl8XPxVqob/R80GLzqlw/WVAgMHF/xye39xeI=",
+      "Fingerprint": "sqikfhl8ad",
+      "Integrity": "5D5gk0Y7RoEEiOr3BGw58Q25uh3YPovCeGtspJW4xqs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\wwwroot\\css\\app.css"
@@ -5981,7 +5981,7 @@
       "OriginalItemSpec": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ajk40h594z-5lobjqudyl.gz",
+      "Identity": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ajk40h594z-g2ls0b255e.gz",
       "SourceId": "Mravenci",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\",
@@ -5995,8 +5995,8 @@
       "RelatedAsset": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "uj31b3l5ny",
-      "Integrity": "Oi/dSKSuHVlMnUIkIeN/yuytBDOJBc+O27uzyJ5hemQ=",
+      "Fingerprint": "0i55ey7ipm",
+      "Integrity": "6M6wWDN2qEi0HaOz9lfkWpyH56MyeiYxzcrCIlUTjsc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -6317,12 +6317,12 @@
       "OriginalItemSpec": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ci6s3dfyr6-pmm5243x4b.gz",
+      "Identity": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ci6s3dfyr6-ndqbjx9qmv.gz",
       "SourceId": "Mravenci",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Mravenci#[.{fingerprint=pmm5243x4b}]!.wasm.gz",
+      "RelativePath": "_framework/Mravenci#[.{fingerprint=ndqbjx9qmv}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6331,8 +6331,8 @@
       "RelatedAsset": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Mravenci.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "t6at37r71b",
-      "Integrity": "K1ic+8zItK6q71TherNEOz7366TQw2xWOsMRXktASxs=",
+      "Fingerprint": "vnjvf2hmki",
+      "Integrity": "S7zRXgeo+0FswFKUVTt1oetQhZ0Yl8gC6nOc+lSLVZU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Mravenci.wasm"
@@ -7346,12 +7346,12 @@
       "OriginalItemSpec": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.wasm"
     },
     {
-      "Identity": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ipbfj6gbpc-leda7r6mmy.gz",
+      "Identity": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ipbfj6gbpc-duapl4nnuu.gz",
       "SourceId": "Mravenci",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Mravenci#[.{fingerprint=leda7r6mmy}]!.pdb.gz",
+      "RelativePath": "_framework/Mravenci#[.{fingerprint=duapl4nnuu}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7360,8 +7360,8 @@
       "RelatedAsset": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Mravenci.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "4az11kxo01",
-      "Integrity": "3OlKz9HW6YlS6hf8od6gsMkfzme9fnGCSLdttFGQO9A=",
+      "Fingerprint": "9w3lweys37",
+      "Integrity": "+T5GNn2eQTQd1KwL8eK6j/5FRYcM0BliPSlHsAES52I=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Mravenci.pdb"
@@ -9607,8 +9607,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wccbej3e5n",
-      "Integrity": "sEIBfiP8SDqb2uBIRlMv37SNP3OZqSWnfeFYiVauFxA=",
+      "Fingerprint": "79f1ftsn3y",
+      "Integrity": "e4Z+gbNWQYkPPz33bVzA1OzdHDL4jf9Cnaw3pCi13Hg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
@@ -10663,11 +10663,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"x/MYUAmdAnD9I1FFFnnrA3bKNpHJh8bAKE+a0XVXM4o=\""
+          "Value": "\"WDqUmUcRJpfR+xR1qZN5CfhEyPmby5rWPJoBfZ5AJH8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:01:14 GMT"
+          "Value": "Sun, 15 Jun 2025 12:16:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10677,18 +10677,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-x/MYUAmdAnD9I1FFFnnrA3bKNpHJh8bAKE+a0XVXM4o="
+          "Value": "sha256-WDqUmUcRJpfR+xR1qZN5CfhEyPmby5rWPJoBfZ5AJH8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ajk40h594z-5lobjqudyl.gz",
+      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ajk40h594z-g2ls0b255e.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081261173"
+          "Quality": "0.000081280988"
         }
       ],
       "ResponseHeaders": [
@@ -10698,15 +10698,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12305"
+          "Value": "12302"
         },
         {
           "Name": "ETag",
-          "Value": "\"Oi/dSKSuHVlMnUIkIeN/yuytBDOJBc+O27uzyJ5hemQ=\""
+          "Value": "\"6M6wWDN2qEi0HaOz9lfkWpyH56MyeiYxzcrCIlUTjsc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 13:22:12 GMT"
+          "Value": "Sun, 15 Jun 2025 12:15:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10726,19 +10726,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"x/MYUAmdAnD9I1FFFnnrA3bKNpHJh8bAKE+a0XVXM4o=\""
+          "Value": "W/\"WDqUmUcRJpfR+xR1qZN5CfhEyPmby5rWPJoBfZ5AJH8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-x/MYUAmdAnD9I1FFFnnrA3bKNpHJh8bAKE+a0XVXM4o="
+          "Value": "sha256-WDqUmUcRJpfR+xR1qZN5CfhEyPmby5rWPJoBfZ5AJH8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ajk40h594z-5lobjqudyl.gz",
+      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ajk40h594z-g2ls0b255e.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10747,7 +10747,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12305"
+          "Value": "12302"
         },
         {
           "Name": "Content-Type",
@@ -10755,11 +10755,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Oi/dSKSuHVlMnUIkIeN/yuytBDOJBc+O27uzyJ5hemQ=\""
+          "Value": "\"6M6wWDN2qEi0HaOz9lfkWpyH56MyeiYxzcrCIlUTjsc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 13:22:12 GMT"
+          "Value": "Sun, 15 Jun 2025 12:15:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10777,7 +10777,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Oi/dSKSuHVlMnUIkIeN/yuytBDOJBc+O27uzyJ5hemQ="
+          "Value": "sha256-6M6wWDN2qEi0HaOz9lfkWpyH56MyeiYxzcrCIlUTjsc="
         }
       ]
     },
@@ -21647,7 +21647,7 @@
       ]
     },
     {
-      "Route": "_framework/Mravenci.leda7r6mmy.pdb",
+      "Route": "_framework/Mravenci.duapl4nnuu.pdb",
       "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Mravenci.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21657,7 +21657,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17004"
+          "Value": "21292"
         },
         {
           "Name": "Content-Type",
@@ -21665,11 +21665,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"owqUco/eLEWWsgWz5rJHG7syHIFaKvV6Vxv4cVE8cGs=\""
+          "Value": "\"JfgORMaxk/x7+SsMqU7RMwk/t+RhBUzOZn6y4X3b+ZE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:01:13 GMT"
+          "Value": "Sun, 15 Jun 2025 12:03:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21679,7 +21679,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "leda7r6mmy"
+          "Value": "duapl4nnuu"
         },
         {
           "Name": "label",
@@ -21687,18 +21687,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-owqUco/eLEWWsgWz5rJHG7syHIFaKvV6Vxv4cVE8cGs="
+          "Value": "sha256-JfgORMaxk/x7+SsMqU7RMwk/t+RhBUzOZn6y4X3b+ZE="
         }
       ]
     },
     {
-      "Route": "_framework/Mravenci.leda7r6mmy.pdb",
-      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ipbfj6gbpc-leda7r6mmy.gz",
+      "Route": "_framework/Mravenci.duapl4nnuu.pdb",
+      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ipbfj6gbpc-duapl4nnuu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000090424089"
+          "Quality": "0.000075052537"
         }
       ],
       "ResponseHeaders": [
@@ -21708,15 +21708,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11058"
+          "Value": "13323"
         },
         {
           "Name": "ETag",
-          "Value": "\"3OlKz9HW6YlS6hf8od6gsMkfzme9fnGCSLdttFGQO9A=\""
+          "Value": "\"+T5GNn2eQTQd1KwL8eK6j/5FRYcM0BliPSlHsAES52I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:01:14 GMT"
+          "Value": "Sun, 15 Jun 2025 12:03:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21736,13 +21736,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"owqUco/eLEWWsgWz5rJHG7syHIFaKvV6Vxv4cVE8cGs=\""
+          "Value": "W/\"JfgORMaxk/x7+SsMqU7RMwk/t+RhBUzOZn6y4X3b+ZE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "leda7r6mmy"
+          "Value": "duapl4nnuu"
         },
         {
           "Name": "label",
@@ -21750,13 +21750,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-owqUco/eLEWWsgWz5rJHG7syHIFaKvV6Vxv4cVE8cGs="
+          "Value": "sha256-JfgORMaxk/x7+SsMqU7RMwk/t+RhBUzOZn6y4X3b+ZE="
         }
       ]
     },
     {
-      "Route": "_framework/Mravenci.leda7r6mmy.pdb.gz",
-      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ipbfj6gbpc-leda7r6mmy.gz",
+      "Route": "_framework/Mravenci.duapl4nnuu.pdb.gz",
+      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ipbfj6gbpc-duapl4nnuu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21765,7 +21765,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11058"
+          "Value": "13323"
         },
         {
           "Name": "Content-Type",
@@ -21773,11 +21773,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3OlKz9HW6YlS6hf8od6gsMkfzme9fnGCSLdttFGQO9A=\""
+          "Value": "\"+T5GNn2eQTQd1KwL8eK6j/5FRYcM0BliPSlHsAES52I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:01:14 GMT"
+          "Value": "Sun, 15 Jun 2025 12:03:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21795,7 +21795,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "leda7r6mmy"
+          "Value": "duapl4nnuu"
         },
         {
           "Name": "label",
@@ -21803,7 +21803,168 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3OlKz9HW6YlS6hf8od6gsMkfzme9fnGCSLdttFGQO9A="
+          "Value": "sha256-+T5GNn2eQTQd1KwL8eK6j/5FRYcM0BliPSlHsAES52I="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Mravenci.ndqbjx9qmv.wasm",
+      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Mravenci.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S4Fq2Re5AocSGwgke2JQyomu6HB+PcqVGWcVskzyDYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:03:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ndqbjx9qmv"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Mravenci.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S4Fq2Re5AocSGwgke2JQyomu6HB+PcqVGWcVskzyDYw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Mravenci.ndqbjx9qmv.wasm",
+      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ci6s3dfyr6-ndqbjx9qmv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000127942682"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7815"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S7zRXgeo+0FswFKUVTt1oetQhZ0Yl8gC6nOc+lSLVZU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:03:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"S4Fq2Re5AocSGwgke2JQyomu6HB+PcqVGWcVskzyDYw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ndqbjx9qmv"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Mravenci.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S4Fq2Re5AocSGwgke2JQyomu6HB+PcqVGWcVskzyDYw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Mravenci.ndqbjx9qmv.wasm.gz",
+      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ci6s3dfyr6-ndqbjx9qmv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7815"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S7zRXgeo+0FswFKUVTt1oetQhZ0Yl8gC6nOc+lSLVZU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:03:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ndqbjx9qmv"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Mravenci.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S7zRXgeo+0FswFKUVTt1oetQhZ0Yl8gC6nOc+lSLVZU="
         }
       ]
     },
@@ -21818,7 +21979,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17004"
+          "Value": "21292"
         },
         {
           "Name": "Content-Type",
@@ -21826,11 +21987,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"owqUco/eLEWWsgWz5rJHG7syHIFaKvV6Vxv4cVE8cGs=\""
+          "Value": "\"JfgORMaxk/x7+SsMqU7RMwk/t+RhBUzOZn6y4X3b+ZE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:01:13 GMT"
+          "Value": "Sun, 15 Jun 2025 12:03:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21840,18 +22001,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-owqUco/eLEWWsgWz5rJHG7syHIFaKvV6Vxv4cVE8cGs="
+          "Value": "sha256-JfgORMaxk/x7+SsMqU7RMwk/t+RhBUzOZn6y4X3b+ZE="
         }
       ]
     },
     {
       "Route": "_framework/Mravenci.pdb",
-      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ipbfj6gbpc-leda7r6mmy.gz",
+      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ipbfj6gbpc-duapl4nnuu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000090424089"
+          "Quality": "0.000075052537"
         }
       ],
       "ResponseHeaders": [
@@ -21861,15 +22022,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11058"
+          "Value": "13323"
         },
         {
           "Name": "ETag",
-          "Value": "\"3OlKz9HW6YlS6hf8od6gsMkfzme9fnGCSLdttFGQO9A=\""
+          "Value": "\"+T5GNn2eQTQd1KwL8eK6j/5FRYcM0BliPSlHsAES52I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:01:14 GMT"
+          "Value": "Sun, 15 Jun 2025 12:03:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21889,19 +22050,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"owqUco/eLEWWsgWz5rJHG7syHIFaKvV6Vxv4cVE8cGs=\""
+          "Value": "W/\"JfgORMaxk/x7+SsMqU7RMwk/t+RhBUzOZn6y4X3b+ZE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-owqUco/eLEWWsgWz5rJHG7syHIFaKvV6Vxv4cVE8cGs="
+          "Value": "sha256-JfgORMaxk/x7+SsMqU7RMwk/t+RhBUzOZn6y4X3b+ZE="
         }
       ]
     },
     {
       "Route": "_framework/Mravenci.pdb.gz",
-      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ipbfj6gbpc-leda7r6mmy.gz",
+      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ipbfj6gbpc-duapl4nnuu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21910,7 +22071,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11058"
+          "Value": "13323"
         },
         {
           "Name": "Content-Type",
@@ -21918,11 +22079,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3OlKz9HW6YlS6hf8od6gsMkfzme9fnGCSLdttFGQO9A=\""
+          "Value": "\"+T5GNn2eQTQd1KwL8eK6j/5FRYcM0BliPSlHsAES52I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:01:14 GMT"
+          "Value": "Sun, 15 Jun 2025 12:03:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21940,168 +22101,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3OlKz9HW6YlS6hf8od6gsMkfzme9fnGCSLdttFGQO9A="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Mravenci.pmm5243x4b.wasm",
-      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Mravenci.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12053"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"L7zqgCIqum3Nh1wo7y8cYTRbwNZj3lorFNSpCT6+B7A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:01:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pmm5243x4b"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Mravenci.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-L7zqgCIqum3Nh1wo7y8cYTRbwNZj3lorFNSpCT6+B7A="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Mravenci.pmm5243x4b.wasm",
-      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ci6s3dfyr6-pmm5243x4b.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000213995292"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4672"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"K1ic+8zItK6q71TherNEOz7366TQw2xWOsMRXktASxs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:01:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"L7zqgCIqum3Nh1wo7y8cYTRbwNZj3lorFNSpCT6+B7A=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pmm5243x4b"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Mravenci.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-L7zqgCIqum3Nh1wo7y8cYTRbwNZj3lorFNSpCT6+B7A="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Mravenci.pmm5243x4b.wasm.gz",
-      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ci6s3dfyr6-pmm5243x4b.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4672"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"K1ic+8zItK6q71TherNEOz7366TQw2xWOsMRXktASxs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:01:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pmm5243x4b"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Mravenci.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-K1ic+8zItK6q71TherNEOz7366TQw2xWOsMRXktASxs="
+          "Value": "sha256-+T5GNn2eQTQd1KwL8eK6j/5FRYcM0BliPSlHsAES52I="
         }
       ]
     },
@@ -22116,7 +22116,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12053"
+          "Value": "17685"
         },
         {
           "Name": "Content-Type",
@@ -22124,11 +22124,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L7zqgCIqum3Nh1wo7y8cYTRbwNZj3lorFNSpCT6+B7A=\""
+          "Value": "\"S4Fq2Re5AocSGwgke2JQyomu6HB+PcqVGWcVskzyDYw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:01:13 GMT"
+          "Value": "Sun, 15 Jun 2025 12:03:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22138,18 +22138,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-L7zqgCIqum3Nh1wo7y8cYTRbwNZj3lorFNSpCT6+B7A="
+          "Value": "sha256-S4Fq2Re5AocSGwgke2JQyomu6HB+PcqVGWcVskzyDYw="
         }
       ]
     },
     {
       "Route": "_framework/Mravenci.wasm",
-      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ci6s3dfyr6-pmm5243x4b.gz",
+      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ci6s3dfyr6-ndqbjx9qmv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000213995292"
+          "Quality": "0.000127942682"
         }
       ],
       "ResponseHeaders": [
@@ -22159,15 +22159,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4672"
+          "Value": "7815"
         },
         {
           "Name": "ETag",
-          "Value": "\"K1ic+8zItK6q71TherNEOz7366TQw2xWOsMRXktASxs=\""
+          "Value": "\"S7zRXgeo+0FswFKUVTt1oetQhZ0Yl8gC6nOc+lSLVZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:01:14 GMT"
+          "Value": "Sun, 15 Jun 2025 12:03:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22187,19 +22187,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"L7zqgCIqum3Nh1wo7y8cYTRbwNZj3lorFNSpCT6+B7A=\""
+          "Value": "W/\"S4Fq2Re5AocSGwgke2JQyomu6HB+PcqVGWcVskzyDYw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-L7zqgCIqum3Nh1wo7y8cYTRbwNZj3lorFNSpCT6+B7A="
+          "Value": "sha256-S4Fq2Re5AocSGwgke2JQyomu6HB+PcqVGWcVskzyDYw="
         }
       ]
     },
     {
       "Route": "_framework/Mravenci.wasm.gz",
-      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ci6s3dfyr6-pmm5243x4b.gz",
+      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\ci6s3dfyr6-ndqbjx9qmv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22208,7 +22208,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4672"
+          "Value": "7815"
         },
         {
           "Name": "Content-Type",
@@ -22216,11 +22216,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"K1ic+8zItK6q71TherNEOz7366TQw2xWOsMRXktASxs=\""
+          "Value": "\"S7zRXgeo+0FswFKUVTt1oetQhZ0Yl8gC6nOc+lSLVZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 14:01:14 GMT"
+          "Value": "Sun, 15 Jun 2025 12:03:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22238,7 +22238,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-K1ic+8zItK6q71TherNEOz7366TQw2xWOsMRXktASxs="
+          "Value": "sha256-S7zRXgeo+0FswFKUVTt1oetQhZ0Yl8gC6nOc+lSLVZU="
         }
       ]
     },
@@ -71197,13 +71197,13 @@
       ]
     },
     {
-      "Route": "css/app.css",
-      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\7bqs9l7xgf-wccbej3e5n.gz",
+      "Route": "css/app.79f1ftsn3y.css",
+      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\7bqs9l7xgf-79f1ftsn3y.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001298701299"
+          "Quality": "0.001161440186"
         }
       ],
       "ResponseHeaders": [
@@ -71213,19 +71213,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "769"
+          "Value": "860"
         },
         {
           "Name": "ETag",
-          "Value": "\"0GJsNeEl8XPxVqob/R80GLzqlw/WVAgMHF/xye39xeI=\""
+          "Value": "\"5D5gk0Y7RoEEiOr3BGw58Q25uh3YPovCeGtspJW4xqs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 13:22:02 GMT"
+          "Value": "Sun, 15 Jun 2025 12:16:27 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -71241,18 +71241,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"sEIBfiP8SDqb2uBIRlMv37SNP3OZqSWnfeFYiVauFxA=\""
+          "Value": "W/\"e4Z+gbNWQYkPPz33bVzA1OzdHDL4jf9Cnaw3pCi13Hg=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "79f1ftsn3y"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-sEIBfiP8SDqb2uBIRlMv37SNP3OZqSWnfeFYiVauFxA="
+          "Value": "sha256-e4Z+gbNWQYkPPz33bVzA1OzdHDL4jf9Cnaw3pCi13Hg="
         }
       ]
     },
     {
-      "Route": "css/app.css",
+      "Route": "css/app.79f1ftsn3y.css",
       "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -71262,7 +71270,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2418"
+          "Value": "2837"
         },
         {
           "Name": "Content-Type",
@@ -71270,121 +71278,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sEIBfiP8SDqb2uBIRlMv37SNP3OZqSWnfeFYiVauFxA=\""
+          "Value": "\"e4Z+gbNWQYkPPz33bVzA1OzdHDL4jf9Cnaw3pCi13Hg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 13:22:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-sEIBfiP8SDqb2uBIRlMv37SNP3OZqSWnfeFYiVauFxA="
-        }
-      ]
-    },
-    {
-      "Route": "css/app.css.gz",
-      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\7bqs9l7xgf-wccbej3e5n.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "769"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0GJsNeEl8XPxVqob/R80GLzqlw/WVAgMHF/xye39xeI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 13:22:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-0GJsNeEl8XPxVqob/R80GLzqlw/WVAgMHF/xye39xeI="
-        }
-      ]
-    },
-    {
-      "Route": "css/app.wccbej3e5n.css",
-      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\7bqs9l7xgf-wccbej3e5n.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001298701299"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "769"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0GJsNeEl8XPxVqob/R80GLzqlw/WVAgMHF/xye39xeI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 13:22:02 GMT"
+          "Value": "Sun, 15 Jun 2025 12:16:27 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"sEIBfiP8SDqb2uBIRlMv37SNP3OZqSWnfeFYiVauFxA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wccbej3e5n"
+          "Value": "79f1ftsn3y"
         },
         {
           "Name": "label",
@@ -71392,13 +71300,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sEIBfiP8SDqb2uBIRlMv37SNP3OZqSWnfeFYiVauFxA="
+          "Value": "sha256-e4Z+gbNWQYkPPz33bVzA1OzdHDL4jf9Cnaw3pCi13Hg="
         }
       ]
     },
     {
-      "Route": "css/app.wccbej3e5n.css",
-      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\wwwroot\\css\\app.css",
+      "Route": "css/app.79f1ftsn3y.css.gz",
+      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\7bqs9l7xgf-79f1ftsn3y.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -71407,7 +71315,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2418"
+          "Value": "860"
         },
         {
           "Name": "Content-Type",
@@ -71415,56 +71323,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sEIBfiP8SDqb2uBIRlMv37SNP3OZqSWnfeFYiVauFxA=\""
+          "Value": "\"5D5gk0Y7RoEEiOr3BGw58Q25uh3YPovCeGtspJW4xqs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 13:22:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wccbej3e5n"
-        },
-        {
-          "Name": "label",
-          "Value": "css/app.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-sEIBfiP8SDqb2uBIRlMv37SNP3OZqSWnfeFYiVauFxA="
-        }
-      ]
-    },
-    {
-      "Route": "css/app.wccbej3e5n.css.gz",
-      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\7bqs9l7xgf-wccbej3e5n.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "769"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0GJsNeEl8XPxVqob/R80GLzqlw/WVAgMHF/xye39xeI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 13:22:02 GMT"
+          "Value": "Sun, 15 Jun 2025 12:16:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71482,7 +71345,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wccbej3e5n"
+          "Value": "79f1ftsn3y"
         },
         {
           "Name": "label",
@@ -71490,7 +71353,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0GJsNeEl8XPxVqob/R80GLzqlw/WVAgMHF/xye39xeI="
+          "Value": "sha256-5D5gk0Y7RoEEiOr3BGw58Q25uh3YPovCeGtspJW4xqs="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css",
+      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\7bqs9l7xgf-79f1ftsn3y.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001161440186"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "860"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5D5gk0Y7RoEEiOr3BGw58Q25uh3YPovCeGtspJW4xqs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:16:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"e4Z+gbNWQYkPPz33bVzA1OzdHDL4jf9Cnaw3pCi13Hg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e4Z+gbNWQYkPPz33bVzA1OzdHDL4jf9Cnaw3pCi13Hg="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css",
+      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\wwwroot\\css\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e4Z+gbNWQYkPPz33bVzA1OzdHDL4jf9Cnaw3pCi13Hg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:16:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e4Z+gbNWQYkPPz33bVzA1OzdHDL4jf9Cnaw3pCi13Hg="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css.gz",
+      "AssetFile": "C:\\Users\\kidka\\Documents\\Káťa\\kurz programování\\C#2\\Závěrečný úkol\\Mravenci\\obj\\Debug\\net9.0\\compressed\\7bqs9l7xgf-79f1ftsn3y.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5D5gk0Y7RoEEiOr3BGw58Q25uh3YPovCeGtspJW4xqs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:16:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5D5gk0Y7RoEEiOr3BGw58Q25uh3YPovCeGtspJW4xqs="
         }
       ]
     },

@@ -6,7 +6,6 @@ body,
     color: white;
 }
 
-
 .game-container {
     display: flex;
     align-items: center;
@@ -17,7 +16,6 @@ body,
     height: 100%;
 }
 
-
 .game-area {
     background-image: url(./background.png);
     background-size: cover;
@@ -25,21 +23,20 @@ body,
     width: 70%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
     border-radius: 20px;
     /* zaoblené rohy */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     /* jemný stín */
-
-
 }
 
 .board {
     flex: 100%;
     display: flex;
-
-
+    height: 50%;
 }
 
 .player-column {
@@ -54,9 +51,19 @@ body,
     height: 250px;
 }
 
+.active-player {
+    background-color: rgba(255, 223, 70, 0.5);
+}
 
 .castle-column {
     flex: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.win {
+    text-align: center;
 }
 
 .scoreboard {
@@ -71,24 +78,24 @@ body,
 }
 
 
-
-
 /* Karty dole */
 
 .hand {
     flex: 100%;
     max-width: 900px;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
+    align-items: end;
     gap: 20px;
+    height: 50%;
 }
 
 .card {
+    color: white;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 12px;
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-    padding: 20px;
+    padding: 10px;
     width: 160px;
     height: 250px;
     text-align: center;
@@ -96,6 +103,13 @@ body,
     cursor: pointer;
     transition: box-shadow 0.3s ease, transform 0.2s ease;
     user-select: none;
+    margin-bottom: 40px;
+}
+
+.card-disabled {
+    opacity: 0.5;
+    filter: grayscale(80%);
+    pointer-events: none;
 }
 
 .card:hover {
@@ -109,37 +123,35 @@ body,
 }
 
 .card-cost {
-    color: #d84315;
     font-weight: 700;
     margin-bottom: 8px;
 }
 
 .card-effect {
-    color: #2e7d32;
     margin-bottom: 14px;
 }
 
-.card-actions button {
-    background: #ff5722;
-    border: none;
-    border-radius: 6px;
-    padding: 8px 16px;
-    margin: 0 6px;
+.discard {
     color: white;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background 0.3s ease;
+    font-weight: bold;
+    display: flex;
+    justify-content: right;
 }
 
-.card-actions button.discard {
-    background: #9e9e9e;
-    color: #222;
+.discard-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* border: white solid 2px; */
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+    pointer-events: auto;
 }
 
-.card-actions button:hover {
-    background: #e64a19;
-}
-
-.card-actions button.discard:hover {
-    background: #757575;
+.discard-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }

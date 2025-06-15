@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Mravenci",
   "resources": {
-    "hash": "sha256-nMRrk95Jrum+MZ/Jb5N5Keeqrx6OpLA8K8kDD1235Fc=",
+    "hash": "sha256-Tbo5ccxkqfVI1gks305HN3e2f73HAiQaa1mNKwDPjrQ=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.esv38zo127.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.cwj0bpb71v.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "Mravenci.pmm5243x4b.wasm": "Mravenci.wasm",
-      "Mravenci.leda7r6mmy.pdb": "Mravenci.pdb"
+      "Mravenci.ndqbjx9qmv.wasm": "Mravenci.wasm",
+      "Mravenci.duapl4nnuu.pdb": "Mravenci.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8bti36lthm.js": "sha256-HFADmT26AarHu4tMjFaTPxINmQjBJGtdPN+CKjtNMFE="
@@ -412,10 +412,10 @@
       "WindowsBase.tuf34ieu7y.wasm": "sha256-Bd+l972cOS1eVeLzrQNlgD6LPWV1QXBSzJhv8Tx1WGI=",
       "mscorlib.5q5u0swn6q.wasm": "sha256-g9cI1sECkF7bxMqOSB+W0a4utdDsqTrqZzyiAEeA65g=",
       "netstandard.w8gk1pigg1.wasm": "sha256-QFR5QNPfvyZTexW3IA/AFx6ZmIF/TecvOUsSK4gM4po=",
-      "Mravenci.pmm5243x4b.wasm": "sha256-L7zqgCIqum3Nh1wo7y8cYTRbwNZj3lorFNSpCT6+B7A="
+      "Mravenci.ndqbjx9qmv.wasm": "sha256-S4Fq2Re5AocSGwgke2JQyomu6HB+PcqVGWcVskzyDYw="
     },
     "pdb": {
-      "Mravenci.leda7r6mmy.pdb": "sha256-owqUco/eLEWWsgWz5rJHG7syHIFaKvV6Vxv4cVE8cGs="
+      "Mravenci.duapl4nnuu.pdb": "sha256-JfgORMaxk/x7+SsMqU7RMwk/t+RhBUzOZn6y4X3b+ZE="
     }
   },
   "cacheBootResources": true,
