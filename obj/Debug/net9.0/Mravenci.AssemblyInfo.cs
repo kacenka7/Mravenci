@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mravenci")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+271ef453db8c775644be60ada6fe7e279dba29a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0aad3068d2b36650a209a6cbd406beb474ee1ed5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mravenci")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mravenci")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -31,10 +31,10 @@
         </div>
         @* ruka hráče *@
         <div class="hand">
-            @for (int i = 0; i < aktualniRuka.Count; i++)
-            {
-                var index = i; // Zajistí správné uzavření hodnoty
-                var karta = aktualniRuka[index];
+            @for (int i = 0; i < aktualniRuka.Ruka.Count; i++)
+{
+                var index = i;
+                var karta = aktualniRuka.Ruka.ElementAt(index);
                 <div class="@($"card{(karta.JeKartaHratelna(aktualniHrac) ? "" : " card-disabled")}")"
                     @onclick="() => { if (karta.JeKartaHratelna(aktualniHrac)) HracZahralKartu(index); }">
                     <div class="discard">
@@ -48,5 +48,32 @@
                 </div>
             }
         </div>
+
+        <a href="#" data-bs-toggle="modal" data-bs-target="#pravidlaModal" class="help-icon">
+            <i class="bi bi-question-circle">?</i>
+        </a>
+
+        <div class="modal fade" id="pravidlaModal" tabindex="-1" aria-labelledby="pravidlaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" style="max-width: 800px;">
+                <div class="modal-content" style="background-color: rgba(255, 255, 255, 0.2); width: 800px">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="pravidlaModalLabel">Pravidla hry Mravenci</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zavřít" style="color: white"></button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                    <li>Mravenci jsou strategická karetní hra pro dva hráče - černé a červené mravence. Cílem hry je buď vystavět svůj hrad do výšky 100 bodů, nebo zničit hrad soupeře, tedy snížit jeho hodnotu na nulu. </li>
+                    <li>Hráči se střídají na tazích, přičemž v každém tahu zahrají jednu kartu a poté si doberou novou.</li>
+                    <li>Každý hráč začíná se startovními zásobami 5 cihel a 5 zbraní, a s hradem o výšce 30 bodů. Na začátku každého svého tahu automaticky obdrží 2 cihly a 2 zbraně. </li>
+                    <li>Hráč, který je na tahu může kartu zahrát, pokud má dostatek prostředků - cihel (pro stavební karty) nebo zbraní (pro útočné karty). Případně kliknutím na křížek v pravém horním rohu kartu odhodit, pokud ji nemůže nebo nechce použít.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: rgba(255, 255, 255, 0.7);">Zavřít</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
