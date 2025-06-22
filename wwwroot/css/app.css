@@ -132,6 +132,17 @@ body,
     margin-bottom: 14px;
 }
 
+.zmena-suroviny {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    color: red;
+}
+
+.zmena-suroviny.visible {
+    opacity: 1;
+
+}
+
 .discard {
     color: white;
     font-weight: bold;

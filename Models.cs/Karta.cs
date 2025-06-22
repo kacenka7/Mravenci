@@ -4,15 +4,15 @@ public abstract class Karta
     public int Cena { get; set; }
     public string Popis { get; set; }
     public int Utok { get; set; }
+    public bool ZobrazZmenuSurovin { get; set; }
 
-
-
-    public Karta(string nazev, int cena, string popis, int utok)
+    public Karta(string nazev, int cena, string popis, int utok, bool zmenaSurovin)
     {
         Nazev = nazev;
         Cena = cena;
         Popis = popis;
         Utok = utok;
+        ZobrazZmenuSurovin = zmenaSurovin;
     }
 
     public abstract void ZahrajKartu(Hrac hrac, Hrac souper);
@@ -30,10 +30,11 @@ public class StavebniKarta : Karta
         int cena,
         string popis,
         int utok,
+        bool zmenaSurovin, // zobrazeni změny
         int stavba,
         int mojeCihli,
         int cihlySoupere
-    ) : base(nazev, cena, popis, utok)
+    ) : base(nazev, cena, popis, utok, zmenaSurovin)
     {
         Stavba = stavba;
         MojeCihli = mojeCihli;
@@ -43,10 +44,6 @@ public class StavebniKarta : Karta
     {
         hrac.Hrad += Stavba;
         hrac.PocetCihel -= Cena;
-        if (hrac.PocetCihel < 0)
-        {
-            hrac.PocetCihel = 0;
-        }
         hrac.PocetCihel += MojeCihli;
         souper.Hrad -= Utok;
         souper.PocetCihel -= CihlySoupere;
@@ -54,18 +51,12 @@ public class StavebniKarta : Karta
         {
             souper.PocetCihel = 0;
         }
+
     }
 
     public override bool JeKartaHratelna(Hrac aktualniHrac)
     {
-        if (aktualniHrac.PocetCihel < Cena)
-        {
-            return false;
-        }
-        else
-        {
-            return true;
-        }
+        return aktualniHrac.PocetCihel >= Cena;
     }
 
 }
@@ -80,22 +71,19 @@ public class UtocnaKarta : Karta
         int cena,
         string popis,
         int utok,
+         bool zmenaSurovin,
         int mojeZbrane,
         int zbraneSoupere
-    ) : base(nazev, cena, popis, utok)
+    ) : base(nazev, cena, popis, utok, zmenaSurovin)
     {
         MojeZbrane = mojeZbrane;
         ZbraneSoupere = zbraneSoupere;
     }
 
-    public override void ZahrajKartu(Hrac hrac, Hrac souper)
+    public event Action OnStateChanged;
+    public async override void ZahrajKartu(Hrac hrac, Hrac souper)
     {
-
         hrac.PocetZbrani -= Cena;
-        if (hrac.PocetZbrani < 0)
-        {
-            hrac.PocetZbrani = 0;
-        }
         hrac.PocetZbrani += MojeZbrane;
         souper.Hrad -= Utok;
         souper.PocetZbrani -= ZbraneSoupere;
@@ -103,18 +91,16 @@ public class UtocnaKarta : Karta
         {
             souper.PocetZbrani = 0;
         }
+
+        ZobrazZmenuSurovin = true;
+        await Task.Delay(500); // Po 1 sekundě skryj
+        ZobrazZmenuSurovin = false;
+        OnStateChanged?.Invoke();
     }
 
     public override bool JeKartaHratelna(Hrac aktualniHrac)
     {
-        if (aktualniHrac.PocetZbrani < Cena)
-        {
-            return false;
-        }
-        else
-        {
-            return true;
-        }
+        return aktualniHrac.PocetZbrani >= Cena;
     }
 }
 

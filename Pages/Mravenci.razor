@@ -1,3 +1,4 @@
+
 @namespace Mravenci.Pages
 
 
@@ -10,8 +11,33 @@
 
                 <div class="scoreboard">
                     <div class="score-item">Hrad: <strong>@cerni.Hrad</strong></div>
-                    <div class="score-item">Cihly: <strong>@cerni.PocetCihel</strong></div>
-                    <div class="score-item">Zbraně: <strong>@cerni.PocetZbrani</strong></div>
+                    <div class="score-item">
+                        Cihly: <strong>@cerni.PocetCihel</strong>
+                        <span class="zmena-suroviny @(zobrazZmenuSurovin && posledniZahranaKarta is StavebniKarta && aktualniHrac == cerni ? "visible" : "")"> 
+                            @if (posledniZahranaKarta is StavebniKarta && aktualniHrac == cerni)
+                            {
+                                var stavebniK = (StavebniKarta)posledniZahranaKarta;
+                                @if (stavebniK.MojeCihli > 0)
+                                {
+                                    <text>   +@stavebniK.MojeCihli</text>
+                                }
+                            }
+                        </span>
+                    </div>                 
+                    <div class="score-item">
+                        Zbraně: <strong>@cerni.PocetZbrani</strong>
+                        <span class="zmena-suroviny @(zobrazZmenuSurovin && posledniZahranaKarta is UtocnaKarta && aktualniHrac == cerni ? "visible" : "")"> 
+                            @(posledniZahranaKarta is UtocnaKarta && aktualniHrac == cerni ? "   -" + posledniZahranaKarta.Cena.ToString() : "")
+                                @if (posledniZahranaKarta is UtocnaKarta && aktualniHrac == cerni)
+                            {
+                                var utocnaK = (UtocnaKarta)posledniZahranaKarta;
+                                @if (utocnaK.MojeZbrane > 0)
+                                {
+                                    <text>   +@utocnaK.MojeZbrane</text>
+                                }
+                            }
+                        </span>
+                    </div>
                 </div>
             </div>
 
@@ -23,8 +49,29 @@
                 <h2>@cerveni.Jmeno</h2>
                 <div class="scoreboard">
                     <div class="score-item">Hrad: <strong>@cerveni.Hrad</strong></div>
-                    <div class="score-item">Cihly: <strong>@cerveni.PocetCihel</strong></div>
-                    <div class="score-item">Zbraně: <strong>@cerveni.PocetZbrani</strong></div>
+                    <div class="score-item">Cihly: <strong>@cerveni.PocetCihel</strong>
+                            <span class="zmena-suroviny @(zobrazZmenuSurovin && posledniZahranaKarta is StavebniKarta && aktualniHrac == cerveni ? "visible" : "")">
+                                @if (posledniZahranaKarta is StavebniKarta  && aktualniHrac == cerveni)
+                                    {
+                                        var stavebniK = (StavebniKarta)posledniZahranaKarta;
+                                        @if (stavebniK.MojeCihli > 0)
+                                        {
+                                            <text>   +@stavebniK.MojeCihli</text>
+                                        }
+                                    }
+                        </span>
+                    </div>
+                    <div class="score-item">Zbraně: <strong>@cerveni.PocetZbrani</strong>
+                        <span class="zmena-suroviny @(zobrazZmenuSurovin && posledniZahranaKarta is UtocnaKarta && aktualniHrac == cerveni ? "visible" : "")"> 
+                                @if (posledniZahranaKarta is StavebniKarta && aktualniHrac == cerveni)                            {
+                                var utocnaK = (UtocnaKarta)posledniZahranaKarta;
+                                @if (utocnaK.MojeZbrane > 0)
+                                {
+                                    <text>   +@utocnaK.MojeZbrane</text>
+                                }
+                            }
+                        </span>
+                    </div>
                 </div>
             </div>
 
@@ -58,7 +105,7 @@
                 <div class="modal-content" style="background-color: rgba(255, 255, 255, 0.2); width: 800px">
                 <div class="modal-header">
                     <h5 class="modal-title" id="pravidlaModalLabel">Pravidla hry Mravenci</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zavřít" style="color: white"></button>
+                    @* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zavřít" style="color: white"></button> *@
                 </div>
                 <div class="modal-body">
                     <ul>

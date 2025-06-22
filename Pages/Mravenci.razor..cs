@@ -1,31 +1,31 @@
 using Microsoft.AspNetCore.Components;
-
 namespace Mravenci.Pages
 {
     public partial class Mravenci : ComponentBase
     {
+        bool zobrazZmenuSurovin = false;
         //Hráči
         Hrac cerni = new Hrac("Černí", 20, 5, 5);
         Hrac cerveni = new Hrac("Červení", 20, 5, 5);
 
-        Hrac aktualniHrac;
-        Hrac souper;
+        Hrac aktualniHrac = null!;
+        Hrac souper = null!;
 
         //Balíček
         Balicek balicek = new Balicek();
 
- 
         // Karty v ruce hráče
         KartyvRuce rukaCerni = new KartyvRuce();
         KartyvRuce rukaCerveni = new KartyvRuce();
-        KartyvRuce aktualniRuka = new KartyvRuce ();
+        KartyvRuce aktualniRuka = new KartyvRuce();
 
-        
+        Karta? posledniZahranaKarta = null;
+
         public void PrepniAktualniRuku()
-            {
-                aktualniRuka = aktualniHrac == cerni ? rukaCerni : rukaCerveni;
-            } 
-        
+        {
+            aktualniRuka = aktualniHrac == cerni ? rukaCerni : rukaCerveni;
+        }
+
         public void PrepniHrace()
         {
             aktualniHrac = aktualniHrac == cerni ? cerveni : cerni;
@@ -52,7 +52,7 @@ namespace Mravenci.Pages
 
         //Zahrání karty
 
-        public void HracZahralKartu(int index)
+        public async void HracZahralKartu(int index)
         {
             //ukončení hry
             if (hraSkoncila) { return; }
@@ -60,14 +60,13 @@ namespace Mravenci.Pages
             // ošetření, aby nedošli karty v balíčku
             balicek.ZkontolujKartyVBalicku();
 
-            // přepínání aktuálních karet
-            PrepniAktualniRuku();
-
-            // připsání surovin
-            aktualniHrac.PridejSuroviny();
-
             //zahrání karty
+            posledniZahranaKarta = aktualniRuka.Ruka[index];
             Karta karta = aktualniRuka.Ruka[index];
+
+            zobrazZmenuSurovin = true;
+            StateHasChanged();
+
             karta.ZahrajKartu(aktualniHrac, souper);
 
             //odebrání odehrané karty z ruky
@@ -76,12 +75,19 @@ namespace Mravenci.Pages
             //dobrání nové karty z balíčku
             aktualniRuka.DoberKartuZBalicku(balicek);
 
-            // přepnutí hráče
-            PrepniHrace();
-
             // vyhodnocení hry
             VyhodnotHru();
 
+            // přepnutí hráče
+            PrepniHrace();
+
+            // připsání surovin
+            aktualniHrac.PridejSuroviny();
+
+            StateHasChanged();
+
+            await Task.Delay(1000);
+            zobrazZmenuSurovin = false;
             StateHasChanged();
 
         }
@@ -97,38 +103,43 @@ namespace Mravenci.Pages
             // přepínání aktuálních karet
             PrepniAktualniRuku();
 
-            // připsání surovin
-            aktualniHrac.PridejSuroviny();
-
             //odebrání  karty z ruky
             aktualniRuka.OdeberKartuZRuky(index);
 
             //dobrání nové karty z balíčku
             aktualniRuka.DoberKartuZBalicku(balicek);
 
+            // vyhodnocení hry
+            VyhodnotHru();
+
             // přepnutí hráče
             PrepniHrace();
 
-            // vyhodnocení hry
-            VyhodnotHru();
+            // přepínání aktuálních karet
+            PrepniAktualniRuku();
+
+            // připsání surovin
+            int kolo = 0;
+            if (kolo < 1)
+            {
+                souper.PridejSuroviny();
+                kolo += 1;
+            }
 
             StateHasChanged();
 
         }
 
-
         //Postup hry
         protected override void OnInitialized()
         {
-            balicek.VytvorBalicek();
-            rukaCerni.RozdejKarty(balicek.Karty);
-            rukaCerveni.RozdejKarty(balicek.Karty);
             aktualniHrac = cerni;
             souper = cerveni;
             aktualniRuka = rukaCerni;
-
+            balicek.VytvorBalicek();
+            rukaCerni.RozdejKarty(balicek.Karty);
+            rukaCerveni.RozdejKarty(balicek.Karty);
         }
-
 
     }
 }

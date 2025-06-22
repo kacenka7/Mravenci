@@ -15,14 +15,14 @@
     <StaticWebAssetEndpoint Include="css/app.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\app.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kQX7f2vnucWx5yltwG5mHEuIeohmDtXVHCGHm40D/L8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3647"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kQX7f2vnucWx5yltwG5mHEuIeohmDtXVHCGHm40D/L8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 18:18:05 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oKKTDDIWsWH4N0nn0XB6FoKYB/3z/5cp\u002BCYT7wcIYYc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3792"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022oKKTDDIWsWH4N0nn0XB6FoKYB/3z/5cp\u002BCYT7wcIYYc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 15:01:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="css/app.vk8gji3nyv.css">
+    <StaticWebAssetEndpoint Include="css/app.oywy67gt5r.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\app.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vk8gji3nyv"},{"Name":"integrity","Value":"sha256-kQX7f2vnucWx5yltwG5mHEuIeohmDtXVHCGHm40D/L8="},{"Name":"label","Value":"css/app.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3647"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kQX7f2vnucWx5yltwG5mHEuIeohmDtXVHCGHm40D/L8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 18:18:05 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oywy67gt5r"},{"Name":"integrity","Value":"sha256-oKKTDDIWsWH4N0nn0XB6FoKYB/3z/5cp\u002BCYT7wcIYYc="},{"Name":"label","Value":"css/app.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3792"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022oKKTDDIWsWH4N0nn0XB6FoKYB/3z/5cp\u002BCYT7wcIYYc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 15:01:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="css/background.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\background.png'))</AssetFile>
